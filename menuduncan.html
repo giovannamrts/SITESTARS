@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Basquete Matemático</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        title{font-family:Arial, sans-serif ;}
+        header {
+            background-color: #ffcc00;  /* amarelo pastel */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: #333;}
+        nav {
+            background-color: #ff6666; /* vermelho pastel */
+            padding: 10px;
+            text-align: center;
+            }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 15px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        aside {
+            width: 30%;
+            height: 170px;
+            background-color: #ffcc99; /* laranja pastel */
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #99ccff; /* azul pastel */
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #ff6666;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .download-btn:hover {
+            background-color: #ff4d4d;
+        }
+        .texto {
+            font-family:monospace;
+            border-right: 4px solid;
+            width: 100ch;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 12s steps(100),
+            blinking 0.5s infinite step-end 
+            alternate;
+        }
+        @keyframes typing{
+            from{
+                width: 0;
+            }
+        }
+        @keyframes blinking{
+            50%{
+                border-color: transparent;
+            }
+        }
+        .abc{width: 100px; height: 70px;}
+    </style>
+</head>
+
+<body>
+    <header>
+        Star - basquete e matemática
+    </header>
+    
+    <nav>
+        <a href="#sobre">Sobre o Jogo</a>
+        <a href="#">Como Jogar</a>
+        <a href="#">Download</a>
+    </nav>
+    <main>
+        
+        <section id="sobre">
+            <h2>Sobre o Jogo</h2>
+            <div id="abc">
+            <p>
+                Star é um jogo criado para fins escolares e combina desafios de matemática com jogadas na cesta. </p>
+              <p> Em cada rodada, o jogador responde a uma pergunta matemática para lançar a bola e marcar pontos.</p> <p>Com cada acerto, a jogada é um sucesso, e as 
+                perguntas vão ficando mais difíceis para aumentar a diversão e o aprendizado.</p> <p>Acerte as contas, faça as cestas e 
+                conquiste o placar!</p>
+            </p>
+            </div>
+            <br>
+            <br>
+            <h2>Como jogar</h2>
+            <li>Ao entrar no jogo pelo link de acesso, aperte no botão <i><b>"start";</b></i></li><br>
+            <li>Você será direcionado à página principal do jogo: a quadra de basquete!</li><br>
+            <li>Leia as perguntas atentamente e escolha uma das quatro alternativas (A, B, C ou D) apertanto 
+                o lado direito do mouse;
+            </li><br>
+            <li>Observe a jogada: se a resposta estiver correta o personagem acertará a cesta;</li><br>
+            <li>Tente acertar o máximo de questões para atingir uma boa pontuação;</li><br><br>
+
+            
+        </section>
+        <aside>
+            <h2>Características</h2>
+            <ul>
+                <li>Desafios matemáticos divertidos</li>
+                <li>Vários níveis de dificuldade</li>
+                <li>Gráficos coloridos</li>
+                <li>Pontuação Final</li>
+            </ul>
+        </aside>
+    </main>
+    
+    <footer>
+        <h3>Baixe o Jogo</h3>
+        <p>
+            Clique no botão abaixo para baixar o jogo e comece a se divertir enquanto aprende!
+        </p>
+        <a href="link-para-download" class="download-btn">Baixar Agora!</a>
+    </footer>
+    
+</body>
+</html>
+        
